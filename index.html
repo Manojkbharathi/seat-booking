@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="./video-camera-film-tape-reel-600w-1012567225.webp"
+      type="image/x-icon"
+    />
+    <title>Book-my-show</title>
+
+    <!-- FontAwesome CDN  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- normalize css -->
+    <link rel="stylesheet" href="./styles/normalize.css" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <div class="title-container"><h1 class="title">Movies</h1></div>
+    <div class="movie-container">
+      <div class="movie-one">
+        <div class="vikram btn">
+          <div class="price"></div>
+        </div>
+        <h3 class="movie-name">Vikram</h3>
+      </div>
+      <div class="movie-two">
+        <div class="rrr btn">
+          <div class="price"></div>
+        </div>
+        <h3 class="movie-name">RRR</h3>
+      </div>
+      <div class="movie-three">
+        <div class="kgf btn">
+          <div class="price"></div>
+        </div>
+        <h3 class="movie-name">K.G.F</h3>
+      </div>
+      <div class="movie-four">
+        <div class="thunivu btn">
+          <div class="price"></div>
+        </div>
+        <h3 class="movie-name">Thunivu</h3>
+      </div>
+    </div>
+    <div class="card-one hidden">
+      <button class="close-button">&times</button>
+
+      <div class="flim-container">
+        <div class="form-control">
+          <label for="rate">pick your seat:</label>
+          <select name="rate" id="rate">
+            <option value="300">Box - 300</option>
+            <option value="200">Bolcany - 200</option>
+            <option value="150">Middle class - 150</option>
+            <option value="90">lower class - 90</option>
+          </select>
+        </div>
+      </div>
+      <div class="legend-container">
+        <div class="seat-container">
+          <div class="seats"></div>
+          <span>N/A</span>
+        </div>
+        <div class="seat-container">
+          <div class="seats selected"></div>
+          <span>Selected</span>
+        </div>
+        <div class="seat-container">
+          <div class="seats occupied"></div>
+          <span>Occupied</span>
+        </div>
+      </div>
+      <div class="screen-container">
+        <div class="screen"></div>
+        <div class="seats-container">
+          <div class="row">
+            <div class="seats">1</div>
+            <div class="seats">2</div>
+            <div class="seats">3</div>
+            <div class="seats">4</div>
+            <div class="seats">5</div>
+            <div class="seats">6</div>
+            <div class="seats">7</div>
+            <div class="seats">8</div>
+          </div>
+          <div class="row">
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats occupied"></div>
+            <div class="seats occupied"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats occupied"></div>
+          </div>
+          <div class="row">
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+          </div>
+          <div class="row">
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+          </div>
+          <div class="row">
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+          </div>
+          <div class="row">
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+            <div class="seats"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-container">
+        <p class="message">
+          You have selected <span id="seat-count">0</span> for a price of ₹
+          <span id="total-price">0</span>
+        </p>
+      </div>
+    </div>
+    <!-- custom js -->
+    <script src="./script.js"></script>
+  </body>
+</html>
