@@ -1,6 +1,6 @@
 /* select a font */
 
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap');
 
 *,
 *::after,
@@ -17,8 +17,8 @@
   --clr-prussian-blue: #023047ff;
   --clr-selective-yellow: #ffb703ff;
   --clr-ut-orange: #fb8500ff;
-  --ff-roboto: "Roboto", sans-serif;
-  --ff-noto-sans: "Noto Sans", sans-serif;
+  --ff-roboto: 'Roboto', sans-serif;
+  --ff-noto-sans: 'Noto Sans', sans-serif;
   --transition: all 0.3s linear;
   --spacing: 0.1rem;
   --radius: 0.25rem;
@@ -178,34 +178,41 @@ body {
 }
 
 .vikram {
-  background-image: url(../images/images.jpg);
+  background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRcywLT8os8ZXJb7n3hmSzrSzpnLIDNgHeIufdEvCprHyuxThul);
   width: 95px;
   height: 8.75rem;
   background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0.5rem;
 }
 .rrr {
-  background-image: url(../images/RRR_Poster.jpg.webp);
+  background-image: url(https://upload.wikimedia.org/wikipedia/en/d/d7/RRR_Poster.jpg);
   background-repeat: no-repeat;
   width: 100px;
   height: 8.75rem;
   background-size: contain;
+  margin: 0.5rem;
 }
 .kgf {
-  background-image: url(../images/download.jpg);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShdZRyTaoZojJKIuo3WdjQyooouQhi423xfQmgoIkpdF6lGaqj);
   width: 100px;
-  height: 9rem;
+  height: 8.5rem;
+  margin: 0.5rem;
   background-repeat: no-repeat;
   background-size: contain;
+  padding: 4.35rem 0;
 }
 .thunivu {
-  background-image: url(../images/thunivu.jpg);
+  background-image: url('https://upload.wikimedia.org/wikipedia/en/6/65/Thunivu_poster.jpg');
   width: 95px;
   height: 8.5rem;
   margin: 0.5rem;
   background-size: contain;
   background-repeat: no-repeat;
   margin-top: 1rem;
+  padding: 4.5rem 0;
 }
+
 .form-control {
   display: flex;
 }
